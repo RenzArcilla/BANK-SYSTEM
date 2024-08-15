@@ -7,7 +7,7 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX6ZWH_i6Hce7-AccEosPjpb1CUVAgUDUUSQ&s">
         </img>
         <div>
-            <h6>Login as</h6>
+            <h6>Login as</h6> <!-- we'll have to transform the following 3 lines into a radio form to validate the type of account-->
             <h4>CUSTOMER</h4>
             <h4>TELLER</h4>
             <h4>MANAGER</h4>
@@ -16,19 +16,19 @@
         <div>
             <form >
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username">
+                <input type="text" id="username" name="username" minlength="3" maxlength="25" required>
             </form>
 
             <form >
                 <label for="user-password">Password</label>
-                <input type="password" id="user-password" name="user-password">
+                <input type="password" id="user-password" name="user-password" minlength="8" maxlength="15" required>
             </form>
 
         </div>
 
         <h7>Forgot Password?</h7>
-        <h6>Sign In</h6>
-        <p>Don't have an account? Sign</p>
+        <input type="submit" value="Sign In">
+        <p>Don't have an account? Sign Up!</p>
 
     </body>
 
