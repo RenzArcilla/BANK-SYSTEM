@@ -1,0 +1,30 @@
+.login_as_button{
+  font-family: Serif;
+  background-color: #009c2f;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 17px;
+  border: 2px solid black;
+  transition-duration: 400ms;
+}
+
+.login_as_button:hover{
+  background-color: white;
+  color: #009c2f;  
+}
+
+#login_as_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login_as{
+    font-family: serif;
+    font-size: 25px;
+}
