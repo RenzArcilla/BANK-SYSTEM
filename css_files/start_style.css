@@ -1,8 +1,8 @@
 .login_as_button{
   font-family: Serif;
-  background-color: #009c2f;
+  background-color: antiquewhite;
   border: none;
-  color: white;
+  color: black;
   border-radius: 8px;
   width: 100px;
   height: 50px;
@@ -13,18 +13,36 @@
 }
 
 .login_as_button:hover{
-  background-color: white;
-  color: #009c2f;  
+  background-color: #3a3d0e;
+  color: antiquewhite;  
 }
 
 #login_as_div{
+    background-image: url("https://i.sstatic.net/jGlzr.png");
+    width: 250px;
+
+    margin-inline: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: antiquewhite;
 }
 
 #login_as{
     font-family: serif;
     font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+body{
+  background-image: url("https://wallpapers.com/images/high/bank-background-id6bcxupe69mlzbl.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
